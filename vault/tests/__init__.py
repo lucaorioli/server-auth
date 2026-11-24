@@ -4,6 +4,7 @@
 from . import (
     test_controller,
     test_log,
+    test_neutralize,
     test_rights,
     test_user,
     test_vault,

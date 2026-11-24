@@ -17,3 +17,7 @@ and therefore HTTPS support is required.
 The [vault-recovery](https://github.com/fkantelberg/vault-recovery)
 project focuses on disaster recovery in case of an incident to recover
 secrets from old database backups or old exports.
+
+When the database is neutralized (for example a copy used as staging or
+for testing), the encrypted values, files and inbox entries are deleted.
+Vaults, entries, rights and user keys are kept.
