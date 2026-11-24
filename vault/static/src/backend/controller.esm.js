@@ -265,7 +265,7 @@ patch(FormController.prototype, {
     async _vaultEnsureRightKey(root, right) {
         if (!root.data.master_key || right.data.key) return;
 
-        const params = {user_id: right.data.user_id[0]};
+        const params = {user_id: right.data.user_id.id};
         const user = await rpc("/vault/public", params);
 
         if (!user || !user.public_key) throw new TypeError("User has no public key");
