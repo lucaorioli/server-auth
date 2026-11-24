@@ -1263,6 +1263,11 @@ msgid "Vault is not supported"
 msgstr "Il deposito di sicurezza non è supportato"
 
 #. module: vault
+#: model:res.groups.privilege,name:vault.res_groups_privilege_vault
+msgid "Vault Permissions"
+msgstr "Permessi del Deposito di sicurezza"
+
+#. module: vault
 #: model:ir.model,name:vault.model_vault_right
 msgid "Vault rights"
 msgstr "Autorizzazioni deposito di sicurezza"
